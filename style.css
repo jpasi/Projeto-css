@@ -499,24 +499,25 @@ label {
 
 
 
-/* js
-
-.enome {
-    visibility: hidden;
-}
-
-.eemail {
-    visibility: hidden;
-}
-
-.eemail2 {
-    visibility: hidden;
-}
-
-.eassunto {
-    visibility: hidden;
-}
-
-.emensagem {
-    visibility: hidden;
-} */
+#root {
+    width: 1920px;
+    height: 400px;
+    background-color: gainsboro;
+    
+    
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .card {
+    margin: 50px;
+    border: 1px solid gray;
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    
+  }
